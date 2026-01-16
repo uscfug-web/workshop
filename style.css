@@ -30,7 +30,7 @@ main{
 }
 .state img{
     width: 50%;
-    border-radius: 30px;
+    border-radius: 20px;
     border: 5px solid #2d7180;
     margin: 30px;
 }
@@ -49,4 +49,5 @@ footer{
     border-radius: 0px 0px 20px 20px;
     height: 5vh;
     width: 100%;
+
 }
