@@ -22,7 +22,7 @@ h1{
 }
 main{
     background-color: #e0ffff; 
-    height: 77vh;     
+    height: 78vh;     
     flex-direction: column;
     padding-top: 80px;
 }
@@ -98,6 +98,7 @@ footer{
     font-size: 12px;
 }
 }
+
 
 
 
