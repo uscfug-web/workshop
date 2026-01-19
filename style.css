@@ -22,10 +22,10 @@ h1{
 }
 main{
     background-color: #e0ffff;
-    padding: 20px;
+    padding: 20px;   
 }
 .state img{
-    width: 35%;
+    width: 31%;
     border-radius: 30px;
     border: 3px solid #2d7180;
 }
@@ -33,6 +33,18 @@ main{
     display: flex;
     justify-content: center;
     padding: 10px;
+}
+.opening{
+    color: #2d7180;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.opening h2{
+    font-size: 40px;
+}
+.opening p{
+    font-size: 18px;
 }
 footer{
     background-color: #2d7180;
