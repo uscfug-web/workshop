@@ -4,14 +4,14 @@
 }
 header{
     background-color: #2d7180;
-    height: 10vh;
+    height: 8vh;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     position: relative;
     background-image:url(image/logo2.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 25%;
+    background-size: 35%;
 }
 h1{
     color: white;
@@ -21,18 +21,21 @@ h1{
     text-indent: -9999px;
 }
 main{
-    background-color: #e0ffff;
-    padding: 20px;   
+    background-color: #e0ffff; 
+    height: 78vh;     
+    flex-direction: column;
+    padding-top: 80px;
 }
 .state img{
-    width: 31%;
+    width: 50%;
     border-radius: 30px;
     border: 3px solid #2d7180;
+    margin: 30px;
 }
 .state div{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 20px;
 }
 .opening{
     color: #2d7180;
@@ -42,6 +45,9 @@ main{
 }
 .opening h2{
     font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .opening p{
     font-size: 18px;
@@ -55,33 +61,34 @@ footer{
     background-image:url(image/copy-03.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 35%;
+    background-size: 80%;
 }
 p{
    color: #2d7180; 
 }
 /* 響應式設計語法 */
-@media screen and {max-width: 768px;
-
+@media screen and (max-widt:1920px){
 header{
-    height: 8vh;
-    background-size: 35%;
+    height: 10vh;
+    background-size: 25%;
 }
 main{
-    height: 83vh;
+    padding: 5px; 
 }
 .state{
     padding-top: 130px;
 }   
 .state img{
-    width: 50%;
+    width: 0%;
     border-radius: 30px;
     border: 5px solid #2d7180;
-    margin: 30px;
+}
+.state div{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 footer{
-    background-size: 80%;
+    background-size: 35%;
 }
 }
-
-
