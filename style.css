@@ -91,7 +91,14 @@ main{
 footer{
     background-size: 80%;
 }
+.opening h2{
+    font-size: 20px;
 }
+.opening p{
+    font-size: 9px;
+}
+}
+
 
 
 
