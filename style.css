@@ -69,11 +69,11 @@ p{
 /* 響應式設計語法 */
 @media screen and (max-width:768px){
 header{
-    height: 10vh;
-    background-size: 25%;
+    height: 8vh;
+    background-size: 35%;
 }
 main{
-    padding: 5px; 
+    padding: 20px; 
 }
 .state{
     padding-top: 100px;
@@ -92,6 +92,7 @@ footer{
     background-size: 35%;
 }
 }
+
 
 
 
