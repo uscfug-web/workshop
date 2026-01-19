@@ -42,7 +42,6 @@ main{
 }
 .opening h2{
     font-size: 40px;
-    color: #2d7180;
 }
 .opening p{
     font-size: 18px;
@@ -84,4 +83,5 @@ footer{
     background-size: 80%;
 }
 }
+
 
