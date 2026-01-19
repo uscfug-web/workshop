@@ -44,13 +44,13 @@ main{
     align-items: center;
 }
 .opening h2{
-    font-size: 40px;
+    font-size: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .opening p{
-    font-size: 18px;
+    font-size: 25px;
 }
 footer{
     background-color: #2d7180;
@@ -98,6 +98,7 @@ footer{
     font-size: 12px;
 }
 }
+
 
 
 
