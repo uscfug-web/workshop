@@ -67,7 +67,7 @@ p{
    color: #2d7180; 
 }
 /* 響應式設計語法 */
-@media screen and (max-widt:1920px){
+@media screen and (max-width:768px){
 header{
     height: 10vh;
     background-size: 25%;
@@ -92,4 +92,5 @@ footer{
     background-size: 35%;
 }
 }
+
 
