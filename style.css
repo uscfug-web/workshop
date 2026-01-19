@@ -79,7 +79,7 @@ main{
     padding-top: 70px;
 }   
 .state img{
-    width: 50%;
+    width: 60%;
     border-radius: 20px;
     border: 3px solid #2d7180;
 }
@@ -92,12 +92,13 @@ footer{
     background-size: 80%;
 }
 .opening h2{
-    font-size: 20px;
+    font-size: 25px;
 }
 .opening p{
-    font-size: 9px;
+    font-size: 12px;
 }
 }
+
 
 
 
