@@ -81,9 +81,10 @@ main{
 .state img{
     width: 50%;
     border-radius: 20px;
-    border: 5px solid #2d7180;
+    border: 3px solid #2d7180;
 }
 .state div{
+    height: 70vh;
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -92,3 +93,4 @@ footer{
     background-size: 80%;
 }
 }
+
