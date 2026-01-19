@@ -80,7 +80,7 @@ main{
 }   
 .state img{
     width: 50%;
-    border-radius: 30px;
+    border-radius: 20px;
     border: 5px solid #2d7180;
 }
 .state div{
@@ -92,6 +92,7 @@ footer{
     background-size: 35%;
 }
 }
+
 
 
 
