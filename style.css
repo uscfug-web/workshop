@@ -4,14 +4,14 @@
 }
 header{
     background-color: #2d7180;
-    height: 8vh;
+    height: 10vh;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     position: relative;
     background-image:url(image/logo2.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 35%;
+    background-size: 20%;
 }
 h1{
     color: white;
@@ -22,20 +22,20 @@ h1{
 }
 main{
     background-color: #e0ffff;
-    height: 78vh;
+    height: 84vh;
     flex-direction: column;
-    padding: 20px;   
+    padding: 5px;   
 }
 .state img{
-    width: 50%;
-    border-radius: 30px;
+    width: 20%;
+    border-radius: 20px;
     border: 3px solid #2d7180;
-    margin: 30px;
+    margin: 0px;
 }
 .state div{
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
 }
 .opening{
     color: #2d7180;
@@ -44,14 +44,14 @@ main{
     align-items: center;
 }
 .opening h2{
-    font-size: 60px;
+    font-size: 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .opening p{
-    font-size: 25px;
-    margin: 25px 0;
+    font-size: 15px;
+    margin: 5px 0;
 }
 .opening a{
     color: #2d7180;
@@ -59,7 +59,7 @@ main{
     border: 1px solid #ACACAC;
     padding:10px 20px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 12px;
 }
 footer{
     background-color: #2d7180;
@@ -70,7 +70,7 @@ footer{
     background-image:url(image/copy-03.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 80%;
+    background-size: 50%;
 }
 p{
    color: #2d7180; 
@@ -83,7 +83,7 @@ header{
     background-size: 40%;
 }
 main{
-    height: 20vh;
+    height: 83vh;
 }
 .state{
     padding-top: 70px;
@@ -92,6 +92,7 @@ main{
     width: 60%;
     border-radius: 20px;
     border: 5px solid #2d7180;
+    margin: 30px;
 }
 .state div{
     display: flex;
@@ -102,12 +103,12 @@ footer{
     background-size: 80%;
 }
 .opening h2{
-    font-size: 15px;
+    font-size: 60px;
 }
 .opening P{
-    font-size: 8px;
+    font-size: 20px;
 }
 .opening a{
-    font-size: 5px;
+    font-size: 12px;
 }
 }
