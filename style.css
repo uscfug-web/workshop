@@ -21,10 +21,10 @@ h1{
     text-indent: -9999px;
 }
 main{
-    background-color: #e0ffff; 
-    height: 78vh;     
+    background-color: #e0ffff;
+    height: 78vh;
     flex-direction: column;
-    padding-top: 80px;
+    padding: 20px;   
 }
 .state img{
     width: 50%;
@@ -51,6 +51,15 @@ main{
 }
 .opening p{
     font-size: 25px;
+    margin: 25px 0;
+}
+.opening a{
+    color: #2d7180;
+    text-decoration: none;
+    border: 1px solid #ACACAC;
+    padding:10px 20px;
+    border-radius: 5px;
+
 }
 footer{
     background-color: #2d7180;
@@ -67,13 +76,14 @@ p{
    color: #2d7180; 
 }
 /* 響應式設計語法 */
-@media screen and (max-width:768px){
+@media screen and {max-width: 768px;
+
 header{
     height: 8vh;
     background-size: 40%;
 }
 main{
-    padding: 20px; 
+    height: 20vh;
 }
 .state{
     padding-top: 70px;
@@ -81,7 +91,7 @@ main{
 .state img{
     width: 60%;
     border-radius: 20px;
-    border: 3px solid #2d7180;
+    border: 5px solid #2d7180;
 }
 .state div{
     display: flex;
@@ -94,16 +104,7 @@ footer{
 .opening h2{
     font-size: 25px;
 }
-.opening p{
+.opening P{
     font-size: 12px;
 }
 }
-
-
-
-
-
-
-
-
-
