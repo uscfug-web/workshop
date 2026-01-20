@@ -59,7 +59,7 @@ main{
     border: 1px solid #ACACAC;
     padding:10px 20px;
     border-radius: 5px;
-
+    font-size:20px:
 }
 footer{
     background-color: #2d7180;
@@ -108,3 +108,4 @@ footer{
     font-size: 12px;
 }
 }
+
