@@ -59,7 +59,7 @@ main{
     border: 1px solid #ACACAC;
     padding:10px 20px;
     border-radius: 5px;
-    font-size: 15px:
+    font-size: 15px;
 }
 footer{
     background-color: #2d7180;
@@ -76,7 +76,7 @@ p{
    color: #2d7180; 
 }
 /* 響應式設計語法 */
-@media screen and {max-width: 768px;
+@media screen and (max-width: 768px) {
 
 header{
     height: 8vh;
@@ -102,11 +102,12 @@ footer{
     background-size: 80%;
 }
 .opening h2{
-    font-size: 25px;
+    font-size: 15px;
 }
 .opening P{
-    font-size: 12px;
+    font-size: 8px;
+}
+.opening a{
+    font-size: 5px;
 }
 }
-
-
