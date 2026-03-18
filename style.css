@@ -54,7 +54,7 @@ main{
     margin: 5px 0;
 }
 .opening a{
-    color: #red;
+    color: red;
     text-decoration: none;
     border: 1px solid #ACACAC;
     padding:10px 20px;
